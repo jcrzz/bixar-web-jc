@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bixar-blue: #186DD4;
+  --color-bixar-green: #09C895;
+  --color-bixar-dark: #202020;
+}
+
+body {
+  @apply bg-white dark:bg-bixar-dark text-black dark:text-white transition-colors duration-300;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
