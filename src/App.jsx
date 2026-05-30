@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Ingenieria from './pages/Ingenieria';
 import Arquitectura from './pages/Arquitectura';
 import Construccion from './pages/Construccion';
+import Nosotros from './pages/Nosotros';
+import Contacto from './pages/Contacto';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -34,6 +36,8 @@ function App() {
             <Route path="/ingenieria" element={<Ingenieria />} />
             <Route path="/arquitectura" element={<Arquitectura />} />
             <Route path="/construccion" element={<Construccion />} />
+            <Route path="/nosotros" element={<Nosotros />} />
+            <Route path="/contacto" element={<Contacto />} />
           </Routes>
         </main>
         <Footer />
